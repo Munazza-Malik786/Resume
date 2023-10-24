@@ -1,0 +1,27 @@
+body{
+    margin: 0 auto;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+    background-color: #f5f5f5;
+    color: #999;
+    font-size: 12px;
+}
+*{
+    box-sizing: border-box;
+}
+.bg-orange{
+    background-color: #f85606;
+}
+.text-orange{
+    color: #f85606;
+}
+.light-orng{
+   color:  #ffe1d2 !important;
+}
+.bg-light-orng{
+   background-color:  #ffe1d2 !important;
+}
+/* ===header=== */
+.navbar{
+    overflow: hidden;
+    line-height: 36px;
+}
