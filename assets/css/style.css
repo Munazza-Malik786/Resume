@@ -10,6 +10,12 @@ body {
     color: #999;
     font-size: 12px;
     overflow-x: hidden;
+    animation: backgroundAnimation 10s linear infinite;
+}
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
 }
 
 .bg-prpl {
@@ -115,17 +121,31 @@ li {
     width: 100%;
     background: url(../img/slide1.jpg);
 }
-
+.hero{
+    background: url(../img/slide1.jpg);
+    height: 800px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: backgroundAnimation 10s linear infinite;
+}
 .hero .bg-clr {
-    height: 643px;
-    /* height: 750px; */
+    height: 800px;
     background-color: #02000bcc;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
 }
-
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /*position: sticky;*/
+    /*top: 0;*/
+}
 .hero-batch img {
     width: 50px;
 }
