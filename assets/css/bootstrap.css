@@ -1032,22 +1032,22 @@ progress {
 
     .col-sm-6 {
         flex: 0 0 auto;
-        width: 50% !important
+        width: 50%
     }
 
     .col-sm-7 {
         flex: 0 0 auto;
-        width: 58.33333333% !important
+        width: 58.33333333%
     }
 
     .col-sm-8 {
         flex: 0 0 auto;
-        width: 66.66666667% !important
+        width: 66.66666667%
     }
 
     .col-sm-9 {
         flex: 0 0 auto;
-        width: 75% !important
+        width: 75%
     }
 
     .col-sm-10 {
@@ -7795,7 +7795,7 @@ fieldset:disabled .btn {
 }
 
 .sticky-top {
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     position: sticky;
     top: 0;
     z-index: 1020
@@ -8052,6 +8052,14 @@ fieldset:disabled .btn {
     display: none !important
 }
 
+.shadow-success{
+    box-shadow: 0 .5rem 3rem #198754 !important
+}
+.shadow-dark{
+    box-shadow: 0.1px 0.1px #000 !important;
+    box-shadow: 4.1px 5.1px #0000002e !important;
+    
+}
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important
 }
@@ -8196,7 +8204,7 @@ fieldset:disabled .btn {
 
 .border-secondary {
     --bs-border-opacity: 1;
-    border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important
+    border-color: #ffffff17 !important
 }
 
 .border-success {
@@ -9147,7 +9155,7 @@ fieldset:disabled .btn {
 
 .bg-secondary {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important
+    background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity))
 }
 
 .bg-success {
@@ -9197,7 +9205,7 @@ fieldset:disabled .btn {
 
 .bg-transparent {
     --bs-bg-opacity: 1;
-    background-color: transparent !important
+    background-color: transparent
 }
 
 .bg-opacity-10 {
