@@ -79,7 +79,7 @@ li {
     justify-content: space-between;
     font-size: 14px;
     color: #303030;
-    padding: 7px 10px;
+    padding: 12px 10px;
 }
 
 .drop-end {
@@ -93,7 +93,7 @@ li {
          --bs-dropdown-link-active-bg: #fff;
          --bs-dropdown-border-radius: 0.375rem;
          --bs-dropdown-item-padding-y: 0rem ;
-         --bs-dropdown-min-width: 11rem;
+         --bs-dropdown-min-width: 15rem;
 }
 
 /* .dropdown-submenu {
