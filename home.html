@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --favicon--- -->
+    <link rel="icon" href="assets/img/favicon.png">
+    <!-- ---flikity--- -->
+    <link rel="stylesheet" href="assets/css/flickity.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/js/flickity.pkgd.min.js">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- ---bootstrap--- -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- ---custom css--- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Hexalogicx : Training Institute</title>
+</head>
+<body>
+<nav class="navbar py-3 navbar-expand-lg navbar-dark fixed-top" id="sticky-header">
+    <div class="container">
+        <div class="logo">
+            <a class="navbar-brand" href="#">
+                <img class="logo w-100" src="assets/img/logo.svg" alt="">
+            </a>
+        </div>
+        <button class="navbar-toggler border-0 shadow border-light" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <i class="fa fa-bars text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="hexa">
+            <ul class="py-0 rounded-0 navbar-nav me-auto">
+                <li class="nav-item ps-2">
+                    <a class="nav-link scrollto active fs-6" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown ps-2">
+                    <a class="nav-link scrollto fs-6" href="#">Our Courses
+                        <i class="fa fa-chevron-down" style="font-size: 12px;"></i>
+                    </a>
+                    <ul class="py-0 rounded-0 shadow dropdown-menu">
+                        <li class="dropdown-item">
+                            <div class="dropdown">
+                                Basic Course
+                                <i class="fa fa-angle-right float-end"></i>
+                                <ul class="py-0 drop-end rounded-0 dropdown-menu" style="height: 287px;">
+                                    <li class="">
+                                        <a class="dropdown dropdown-item">
+                                            Typing
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown dropdown-item ">
+                                            Ms Office
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-item">
+                            <div class="dropdown">
+                                Graphic Designing
+                                <i class="fa fa-angle-right float-end"></i>
+                                <ul class="py-0 rounded-0 drop-end dropdown-menu"
+                                    style="margin-top: -36px; height: 285px;">
+                                    <li class="">
+                                        <a class="dropdown dropdown-item">
+                                            Coral Draw
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown dropdown-item ">
+                                            PhotoShop
+                                        </a>
+                                    </li>
+                                    <li class=" b-btm">
+                                        <a class="dropdown-item dropdown">
+                                            Illustrator
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-item">
+                            <div class="dropdown">
+                                Web Designing
+                                <i class="fa fa-angle-right float-end"></i>
+                                <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -72px;">
+                                    <li class="">
+                                        <a class="dropdown-item dropdown">
+                                            HTML & CSS3
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown-item dropdown">
+                                            Bootsrap
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item dropdown">
+                                            TailWind CSS
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item dropdown">
+                                            Javascript
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            JQuery
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            React Js
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            Vue Js
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            Angular Js
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-item">
+                            <div class="dropdown">
+                                Web Development
+                                <i class="fa fa-angle-right float-end ps-2"></i>
+                                <ul class="py-0 rounded-0 drop-end dropdown-menu"
+                                    style="margin-top: -107px; height: 285px;">
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item">
+                                            PHP (Basic to advance)
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            CodeIgniter
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            Laravel PHP Framework (Basic to Advance)
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            Django
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            Python(Basic to Advance)
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class=" dropdown dropdown-item ">
+                                            WordPress
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-item">
+                            <div class="dropdown">
+                                Desktop Apps
+                                <i class="fa fa-angle-right float-end"></i>
+                                <ul class="py-0 rounded-0 drop-end dropdown-menu"
+                                    style="margin-top: -143px; height: 285px;">
+                                    <li class="">
+                                        <a class="dropdown dropdown-item">
+                                            C# Desktop App
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-item">
+                            <div class="dropdown">
+                                Mobile Apps
+                                <i class="fa fa-angle-right float-end"></i>
+                                <ul class="py-0 rounded-0 dropdown-menu drop-end"
+                                    style="margin-top: -179px; height: 285px;">
+                                    <li class="">
+                                        <a class="dropdown dropdown-item">
+                                            Android App
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown dropdown-item">
+                                            Hybrid Application Development
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-item">
+                            <div class="dropdown">
+                                Mobile Apps
+                                <i class="fa fa-angle-right float-end"></i>
+                                <ul class="py-0 rounded-0 dropdown-menu drop-end"
+                                    style="margin-top: -215px; height: 285px;">
+                                    <li class="">
+                                        <a class="dropdown dropdown-item">
+                                            Android App
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="dropdown dropdown-item ">
+                                            Hybrid Application Development
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-item border-0">
+                            <div class="dropdown">
+                                Freelancing
+                                <i class="fa fa-angle-right float-end"></i>
+                                <ul class="py-0 rounded-0 dropdown-menu drop-end"
+                                    style="margin-top: -250px; height: 285px;">
+                                    <li class="border-0">
+                                        <a class="dropdown dropdown-item">
+                                            Fiver Training Course
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item ps-2">
+                    <a class="nav-link scrollto fs-6" href="#">Programs</a>
+
+                </li>
+                <li class="nav-item  ps-2">
+                    <a class="nav-link scrollto fs-6" href="#">Price</a>
+                </li>
+                <li class="nav-item  ps-2">
+                    <a class="nav-link scrollto fs-6" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="icons ms-auto">
+                <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa  fa-google"></i></a>
+                <a href="#"><i class="fa-brands text-light  ps-2 fs-6 fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="hero">
+    <div class="carousel" data-flickity='{"prevNextButtons": false,"wrapAround": true}'>
+        <div class="carousel-cell hero1">
+            <div class="hero_bg">
+                <div class="content text-white">
+                    <h1 class="pb-4"> Hexalogicx Training Institute</h1>
+                    <p class="fs-6">
+                        In Technical Courses We Are Offering Training Of Some Programming <br>
+                        Language & In Non-Technical There Are Some Other Courses
+                    </p>
+                    <a class="btn btn-gradient mt-3 shadow-light rounded-5 px-5 text-white fw-bold" href="">
+                        <span>ORDER</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-cell hero2">
+            <div class="hero_bg">
+                <div class="content text-white">
+                    <h1 class="pb-4"> Boost Your Skills</h1>
+                    <p class="fs-6">
+                        In Technical Courses We Are Offering Training Of Some Programming <br>
+                        Language & In Non-Technical There Are Some Other Courses
+                    </p>
+                    <a class="btn btn-gradient mt-3 shadow-light rounded-5 px-5 text-white fw-bold" href="">
+                        <span>ORDER</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-cell hero3">
+            <div class="hero_bg">
+                <div class="content text-white">
+                    <h1 class="pb-4"> First Learn Then Earn </h1>
+                    <p class="fs-6">
+                        In Technical Courses We Are Offering Training Of Some Programming <br>
+                        Language & In Non-Technical There Are Some Other Courses
+                    </p>
+                    <a class="btn btn-gradient mt-3 shadow-light rounded-5 px-5 text-white fw-bold" href="">
+                        <span>ORDER</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-4">
+    <h3 class="heading">
+        <span>About us</span>
+    </h3>
+    <div class="row">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12">
+            <p>
+                At Hexalogicx, we take pride in being a premier destination for those seeking to master the realm of
+                computer sciences and technology. Established with a vision to bridge the gap between education and
+                industry demands, we stand as a beacon of excellence in nurturing the next generation of tech-savvy
+                professionals.
+            </p>
+            <p>
+                Whether you're a passionate beginner or a seasoned tech enthusiast looking to upskill, [Your Institute
+                Name] is the place where ambitions meet possibilities. We invite you to embark on a journey of
+                knowledge, innovation, and personal growth with us.
+
+                At [Hexalogicx], we don't just teach technology; we shape futures.
+            </p>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12 ">
+                    <div class="card p-3 w-100">
+                        <h4>Expert Faculty</h4>
+                        <p>Professionals and experts in the field,bringing a wealth of industry experience</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6  mb-4  col-12 ">
+                    <div class="card p-3 w-100">
+                        <h4>Career Guidance</h4>
+                        <p>Our career counseling services are tailored to each student's aspirations.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4  col-12">
+                    <div class="card p-3 w-100">
+                        <h4>Shaping the Future</h4>
+                        <p>We don't just teach technology; we shape futures. place where ambitions meet
+                            possibilities </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mb-4 col-12">
+                    <div class="card p-3 w-100">
+                        <h4>Art Facilities</h4>
+                        <p> Boasts lab and facilities, providing an imppresive learning environment </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-4 mb-4 offering">
+    <h3 class="heading">
+        <span>We are Offering</span>
+    </h3>
+    <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+             <div class="text-center">
+                 <img src="assets/img/microsoft_office.png" class="w-75">
+             </div>
+              <h4 class="mt-2 text-center">Basic Course</h4>
+              <small class="mt-2"> MS office is going to be a basic trip through Microsoft word, PowerPoint, Excel and Access where beginners would have the opportunity to explore some great shortcuts in order to run those databases more efficiently.</small>
+          </div>
+        </div>
+ <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+              <div class="text-center">
+                  <img src="assets/img/graphic.png" class="w-75">
+              </div>
+              <h4 class="mt-2 text-center">Graphic Designing</h4>
+              <small class="mt-2">
+                  With the wonderful inventions of IT, Now people prefer to customize electronic Graphic designing instead of using a casual pen colors and paper for painting. But at the same time it’s impossible to Graphics.
+              </small>
+          </div>
+        </div>
+ <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+              <div class="text-center">
+                  <img src="assets/img/7334578.png" class="w-75">
+              </div>
+              <h4 class="mt-2 text-center">Web Designing</h4>
+              <small class="mt-2">
+                  web designers and developers to capitalize to design and develop a Static website that offers high functionality while at the same time being extremely user-friendly.
+              </small>
+          </div>
+        </div>
+<div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+              <div class="text-center">
+                  <img src="assets/img/web-developer-logo-png-3-removebg-preview.png" class="w-75">
+              </div>
+              <h4 class="mt-2 text-center">Web Development</h4>
+              <small class="mt-2">
+                  It is designed for experienced developers and those who have completed our Backend Essentials course. In particular, it covers all the latest Object-Oriented-Programming (OOP) and functional programming features
+              </small>
+          </div>
+        </div>
+<div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+              <div class="text-center">
+                  <img src="assets/img/3571829.png" class="w-75">
+              </div>
+              <h4 class="mt-2 text-center">Desktop App</h4>
+              <small class="mt-2">
+                  it's a general-purpose, multi-paradigm programming language. it's encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.
+              </small>
+          </div>
+        </div>
+<div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+              <div class="text-center">
+                  <img src="assets/img/1875043.png" class="w-75">
+              </div>
+              <h4 class="mt-2 text-center">Mobile App</h4>
+              <small class="mt-2">
+                  Android software development is the process by which applications are created for devices running the Android operating system. Google states that "Android apps can be written using Kotlin, Java, and C++ languages"
+              </small>
+          </div>
+        </div>
+<div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+              <div class="text-center">
+                  <img src="assets/img/332-3320790_freelance-icon-hd-png-download-removebg-preview.png" class="w-75">
+              </div>
+              <h4 class="mt-2 text-center">Freelancing</h4>
+              <small class="mt-2">
+                  Online marketplace for freelance services. Freelancing serves to allow listing and applying for small one-off jobs, or gigs, online. Jobs listed on the platform are diverse and range from "get a well-designed business card" to "help with HTML, JavaScript, CSS, and jQuery".
+              </small>
+          </div>
+        </div>
+<div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12">
+          <div class="card p-3 w-100 h-100">
+              <div class="text-center">
+                  <img src="assets/img/seo.png" class="w-75">
+              </div>
+              <h4 class="mt-2 text-center">Digital Marketing</h4>
+              <small class="mt-2">
+                  Digital Marketing is a fundamental aspect of online success, driving organic traffic and enhancing online visibility. In today’s digital landscape, where competition is fierce, having a strong SEO strategy is crucial for small business owners, eCommerce store owners, website owners, bloggers, and webmasters alike.
+              </small>
+          </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- -----nav model start------ -->
+<div class="offcanvas offcanvas-start text-dark w-50" tabindex="-1" id="offcanvasExample"
+     aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <div class="logo offcanvas-title" id="offcanvasExampleLabel">
+            <!--            <a class="navbar-brand" href="#">-->
+            <!--                <img class="logo w-100" src="assets/img/logo.svg" alt="">-->
+            <!--            </a>-->
+        </div>
+        <button type="button" class=" fa fa-close border-0 text-light bg-transparent fs-4" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="py-0 rounded-0 navbar-nav mr-auto">
+            <li class="nav-item ps-2">
+                <a class="nav-link scrollto active fs-6" href="#">Home</a>
+            </li>
+            <li class="dropdown-item">
+                <div class="dropdown">
+                    Basic Course
+                    <i class="fa fa-angle-right float-end"></i>
+                    <ul class="py-0 drop-end rounded-0 dropdown-menu" style="height: 287px;">
+                        <li class="">
+                            <a class="dropdown dropdown-item">
+                                Typing
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown dropdown-item ">
+                                Ms Office
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown-item">
+                <div class="dropdown">
+                    Grafic Designing
+                    <i class="fa fa-angle-right float-end"></i>
+                    <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -36px; height: 285px;">
+                        <li class="">
+                            <a class="dropdown dropdown-item">
+                                Coral Draw
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown dropdown-item ">
+                                PhotoShop
+                            </a>
+                        </li>
+                        <li class=" b-btm">
+                            <a class="dropdown-item dropdown">
+                                Illustrator
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown-item">
+                <div class="dropdown">
+                    Web Designing
+                    <i class="fa fa-angle-right float-end"></i>
+                    <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -72px;">
+                        <li class="">
+                            <a class="dropdown-item dropdown">
+                                HTML & CSS3
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown-item dropdown">
+                                Bootsrap
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item dropdown">
+                                TailWind CSS
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item dropdown">
+                                Javascript
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                JQuery
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                React Js
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                Vue Js
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                Angular Js
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown-item">
+                <div class="dropdown">
+                    Web Development
+                    <i class="fa fa-angle-right float-end ps-2"></i>
+                    <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -107px; height: 285px;">
+                        <li class="">
+                            <a class=" dropdown dropdown-item">
+                                PHP (Basic to advance)
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                CodeIgniter
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                Laravel PHP Framework (Basic to Advance)
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                Django
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                Python(Basic to Advance)
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class=" dropdown dropdown-item ">
+                                WordPress
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown-item">
+                <div class="dropdown">
+                    Desktop Apps
+                    <i class="fa fa-angle-right float-end"></i>
+                    <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -143px; height: 285px;">
+                        <li class="">
+                            <a class="dropdown dropdown-item">
+                                C# Desktop App
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown-item">
+                <div class="dropdown">
+                    Mobile Apps
+                    <i class="fa fa-angle-right float-end"></i>
+                    <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -179px; height: 285px;">
+                        <li class="">
+                            <a class="dropdown dropdown-item">
+                                Android App
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown dropdown-item">
+                                Hybrid Application Development
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown-item">
+                <div class="dropdown">
+                    Mobile Apps
+                    <i class="fa fa-angle-right float-end"></i>
+                    <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -215px; height: 285px;">
+                        <li class="">
+                            <a class="dropdown dropdown-item">
+                                Android App
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="dropdown dropdown-item ">
+                                Hybrid Application Development
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown-item border-0">
+                <div class="dropdown">
+                    Freelancing
+                    <i class="fa fa-angle-right float-end"></i>
+                    <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -250px; height: 285px;">
+                        <li class="border-0">
+                            <a class="dropdown dropdown-item">
+                                Fiver Training Course
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item ps-2">
+                <a class="nav-link scrollto fs-6" href="#">Programs</a>
+
+            </li>
+            <li class="nav-item  ps-2">
+                <a class="nav-link scrollto fs-6" href="#">Price</a>
+            </li>
+            <li class="nav-item  ps-2">
+                <a class="nav-link scrollto fs-6" href="#">Contact</a>
+            </li>
+        </ul>
+        <div class="icons ms-auto">
+            <a href="#"><i class="fa-brands text-secondary mt-2 ps-2 fs-6 fa fa-facebook"></i></a><br>
+            <a href="#"><i class="fa-brands text-secondary mt-2 ps-2 fs-6 fa  fa-google"></i></a><br>
+            <a href="#"><i class="fa-brands text-secondary mt-2  ps-2 fs-6 fa fa-linkedin"></i></a>
+        </div>
+    </div>
+</div>
+<!-- -----nav model end------- -->
+<!-- ---flikity--- -->
+<script src="assets/js/flickity.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- bootsrap -->
+<script src="assets/js/bootstrap.js"></script>
+<!-- -scroll- -->
+<script src="assets/js/script.js"></script>
+<!-- purecounter -->
+<script src="assets/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/js/purecounter/purecounter_vanilla.js"></script>
+<script>
+    new PureCounter();
+</script>
+</body>
+
+</html>
