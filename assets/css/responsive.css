@@ -3,4 +3,26 @@
     .logo {
         width: 37%;
     }
+    .learning{
+        height: 100vh;
+    }
+    .learning_text h1{
+        font-size: 35px;
+    }
+    .learning_text p {
+        font-size: 20px;
+    }
+    .footer-top .w-25{
+        width: 100% !important;
+    }
+    .about_cards .mb-4{
+        margin-top: 1.5rem!important;
+        margin-bottom: 0rem !important;
+    }
+    .hero-contant .pt-5{
+        padding-top: 0rem!important;
+    }
+    .hero-contant .mt-5{
+        margin-top: 0rem!important;
+    }
 }
