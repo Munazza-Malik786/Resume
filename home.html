@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="assets/css/font-awesom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- ---bootstrap--- -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <!-- ---custom css--- -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Hexalogicx : Training Institute</title>
 </head>
 <body>
@@ -261,7 +261,7 @@
     </div>
 </nav>
 <div class="hero">
-    <div class="carousel" data-flickity='{"prevNextButtons": false,"wrapAround": true}'>
+    <div class="carousel carousel-hero">
         <div class="carousel-cell hero1">
             <div class="hero_bg">
                 <div class="content text-white">
@@ -492,7 +492,7 @@
         <span>Upcoming Events</span>
     </h3>
     <div class="mt-5">
-        <div class="carousel" data-flickity='{ "groupCells": true,"wrapAround": true  }'>
+        <div class="carousel carousel-event">
             <div class="carousel-cell">
                 <div  class="carousel-bg">
                     <img src="assets/img/event1.jpg">
@@ -745,14 +745,27 @@
 <!-- -----nav model end------- -->
 <!-- ---flikity--- -->
 <!--<script src="assets/js/flickity.js"></script>-->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 <!-- bootsrap -->
 <script src="assets/js/bootstrap.js"></script>
 <!-- -scroll- -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="assets/js/script.js"></script>
 <!-- purecounter -->
 <script src="assets/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/js/purecounter/purecounter_vanilla.js"></script>
+<script>
+    var elem = document.querySelector('.carousel-hero');
+    new Flickity( elem, {
+        autoplay:true,
+        wrapAround: true,
+    });
+    var elem1 = document.querySelector('.carousel-event');
+     new Flickity( elem1, {
+        freeScroll: true,
+        wrapAround: true
+    });
+</script>
 <script>
     new PureCounter();
 </script>
