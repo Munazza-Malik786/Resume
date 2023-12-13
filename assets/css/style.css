@@ -16,7 +16,9 @@ body {
     --body_bg: #ecf0f3;;
 --gradient:linear-gradient(45deg,  #6f18a580, #6f3bbc96);
 --purple:#6e0d9d;
---gradient1:linear-gradient(200deg, #6f18a5, #6f3bbc);
+    --gradient2:linear-gradient(45deg, #4c1864ed 0%,#3f189ae0 100%);
+/*--gradient1:linear-gradient(200deg, #6f18a5, #6f3bbc);*/
+--gradient1:linear-gradient(45deg, #4c1864 0%,#3f189a 100%);
     --gradient-box: linear-gradient(145deg, #e2e8ec, #ffffff);
 }
 .btn-gradient{
@@ -192,3 +194,61 @@ position: relative;
 .offering .card h4{
     text-shadow: 0px 5px 10px #8d8585e3;
 }
+.learning{
+    background-image: url("../img/learn_bg1.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+.learning_color{
+    background: var(--gradient2) !important;
+    height: 400px;
+    position: relative;
+}
+.learning_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 30px;
+}
+.learning_text h1{
+   font-size: 55px;
+}
+.learning_text p{
+   font-size: 30px;
+    font-weight: lighter;
+}
+.learning_img{
+    background: var(--gradient2) !important;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgb(128 76 201 / 84%);
+}
+.learning_img img{
+    width: 100px;
+    height: 100px;
+}
+.event .carousel-cell {
+    width: 60%;
+    height: 500px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: cover;
+}
+.event .carousel-cell img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.3;
+}
+.event .carousel-cell.is-selected img{
+    opacity: 1;
+}
+/*.event .carousel .is-selected{*/
+/*    opacity:1;*/
+/*}*/
