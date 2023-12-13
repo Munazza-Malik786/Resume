@@ -8,295 +8,43 @@
   <!-- --favicon--- -->
   <link rel="icon" href="assets/img/favicon.png">
   <!-- ---flikity--- -->
-  <link rel="stylesheet" href="assets/css/flickity.css">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <link rel="stylesheet" href="assets/js/flickity.pkgd.min.js">
+  <!--    <link rel="stylesheet" href="assets/css/flickity.css">-->
+  <!--    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">-->
+  <!--    <link rel="stylesheet" href="assets/js/flickity.pkgd.min.js">-->
   <!-- font awesome -->
   <link rel="stylesheet" href="assets/css/font-awesom.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <!-- ---bootstrap--- -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/fade.css">
   <!-- ---custom css--- -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
   <title>Hexalogicx : Training Institute</title>
 </head>
-
 <body>
-  <!-- <a class="btn scroll-btn" data-target="header" href="#">
-        <i class="fa fa-chevron-up pt-2"></i>
-    </a> -->
-
-  <div class="hero">
-    <div class="bg-clr">
-      <!-- ---Header start--- -->
-      <!-- ----top header---- -->
-      <nav class="top-bar py-2 bg-transparent">
-        <div class="container">
-          <div class="justify-content-between py-2 bg-transparent d-flex ">
-            <div class="top-left text-light">
-              <i class="fa fa-envelope-o text-light"></i>hexalogicx@info.com
-            </div>
-            <div class="top-right">
-              <a href="#"
-                class="text-light text-decoration-none border-start border-secondary border-2 p-1 ps-3">Dashboard</a>
-              <a href="#" class="text-light text-decoration-none border-start border-secondary border-2 p-1 ps-3">
-                <i class="fas fa-sign-out-alt me-2"></i>Logout
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- ---bottom header---- -->
-      <nav
-        class="navbar py-3 navbar-expand-lg navbar-dark bg-transparent sticky-top border-top border-bottom  border-secondary border-1"
-        id="sticky-header">
-        <div class="container">
-          <div class="logo">
-            <a class="navbar-brand" href="#">
-              <img class="logo w-100" src="assets/img/logo.svg" alt="">
-            </a>
-          </div>
-          <button class="navbar-toggler border-0 shadow border-light" type="button" data-bs-toggle="offcanvas"
+<nav class="navbar py-3 navbar-expand-lg navbar-dark fixed-top" id="sticky-header">
+  <div class="container">
+    <div class="logo">
+      <a class="navbar-brand" href="#">
+        <img class="logo w-100" src="assets/img/logo.svg" alt="">
+      </a>
+    </div>
+    <button class="navbar-toggler border-0 shadow border-light" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-            <i class="fa fa-bars text-light"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="hexa">
-            <ul class="py-0 rounded-0 navbar-nav me-auto">
-              <li class="nav-item ps-2">
-                <a class="nav-link scrollto active fs-6" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown ps-2">
-                <a class="nav-link scrollto fs-6" href="#">Our Courses
-                  <i class="fa fa-chevron-down" style="font-size: 12px;"></i>
-                </a>
-                <ul class="py-0 rounded-0 shadow dropdown-menu">
-                  <li class="dropdown-item">
-                    <div class="dropdown">
-                      Basic Course
-                      <i class="fa fa-angle-right float-end"></i>
-                      <ul class="py-0 drop-end rounded-0 dropdown-menu" style="height: 287px;">
-                        <li class="">
-                          <a class="dropdown dropdown-item">
-                            Typing
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class="dropdown dropdown-item ">
-                            Ms Office
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-item">
-                    <div class="dropdown">
-                      Grafic Designing
-                      <i class="fa fa-angle-right float-end"></i>
-                      <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -36px; height: 285px;">
-                        <li class="">
-                          <a class="dropdown dropdown-item">
-                            Coral Draw
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class="dropdown dropdown-item ">
-                            PhotoShop
-                          </a>
-                        </li>
-                        <li class=" b-btm">
-                          <a class="dropdown-item dropdown">
-                            Illustrator
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-item">
-                    <div class="dropdown">
-                      Web Designing
-                      <i class="fa fa-angle-right float-end"></i>
-                      <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -72px;">
-                        <li class="">
-                          <a class="dropdown-item dropdown">
-                            HTML & CSS3
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class="dropdown-item dropdown">
-                            Bootsrap
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item dropdown">
-                            TailWind CSS
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item dropdown">
-                            Javascript
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            JQuery
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            React Js
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            Vue Js
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            Angular Js
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-item">
-                    <div class="dropdown">
-                      Web Development
-                      <i class="fa fa-angle-right float-end ps-2"></i>
-                      <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -107px; height: 285px;">
-                        <li class="">
-                          <a class=" dropdown dropdown-item">
-                            PHP (Basic to advance)
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            CodeIgniter
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            Laravel PHP Framework (Basic to Advance)
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            Django
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            Python(Basic to Advance)
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class=" dropdown dropdown-item ">
-                            WordPress
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-item">
-                    <div class="dropdown">
-                      Desktop Apps
-                      <i class="fa fa-angle-right float-end"></i>
-                      <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -143px; height: 285px;">
-                        <li class="">
-                          <a class="dropdown dropdown-item">
-                            C# Desktop App
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-item">
-                    <div class="dropdown">
-                      Mobile Apps
-                      <i class="fa fa-angle-right float-end"></i>
-                      <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -179px; height: 285px;">
-                        <li class="">
-                          <a class="dropdown dropdown-item">
-                            Android App
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class="dropdown dropdown-item">
-                            Hybrid Application Development
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-item">
-                    <div class="dropdown">
-                      Mobile Apps
-                      <i class="fa fa-angle-right float-end"></i>
-                      <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -215px; height: 285px;">
-                        <li class="">
-                          <a class="dropdown dropdown-item">
-                            Android App
-                          </a>
-                        </li>
-                        <li class="">
-                          <a class="dropdown dropdown-item ">
-                            Hybrid Application Development
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-item border-0">
-                    <div class="dropdown">
-                      Freelancing
-                      <i class="fa fa-angle-right float-end"></i>
-                      <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -250px; height: 285px;">
-                        <li class="border-0">
-                          <a class="dropdown dropdown-item">
-                            Fiver Training Course
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item ps-2">
-                <a class="nav-link scrollto fs-6" href="#">Programs</a>
-
-              </li>
-              <li class="nav-item  ps-2">
-                <a class="nav-link scrollto fs-6" href="#">Price</a>
-              </li>
-              <li class="nav-item  ps-2">
-                <a class="nav-link scrollto fs-6" href="#">Contact</a>
-              </li>
-            </ul>
-            <div class="icons ms-auto">
-              <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa  fa-google"></i></a>
-              <a href="#"><i class="fa-brands text-light  ps-2 fs-6 fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- -----nav model start------ -->
-      <div class="offcanvas offcanvas-start text-dark" tabindex="-1" id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header bg-dark">
-          <div class="logo offcanvas-title" id="offcanvasExampleLabel">
-            <a class="navbar-brand" href="#">
-              <img class="logo w-100" src="assets/img/logo.svg" alt="">
-            </a>
-          </div>
-          <button type="button" class=" fa fa-close border-0 text-light bg-dark fs-4" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="py-0 rounded-0 navbar-nav mr-auto">
-            <li class="nav-item ps-2">
-              <a class="nav-link scrollto active fs-6" href="#">Home</a>
-            </li>
+      <i class="fa fa-bars text-light"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="hexa">
+      <ul class="py-0 rounded-0 navbar-nav me-auto">
+        <li class="nav-item ps-2">
+          <a class="nav-link scrollto active fs-6" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown ps-2">
+          <a class="nav-link scrollto fs-6" href="#">Our Courses
+            <i class="fa fa-chevron-down" style="font-size: 12px;"></i>
+          </a>
+          <ul class="py-0 rounded-0 shadow dropdown-menu">
             <li class="dropdown-item">
               <div class="dropdown">
                 Basic Course
@@ -317,9 +65,10 @@
             </li>
             <li class="dropdown-item">
               <div class="dropdown">
-                Grafic Designing
+                Graphic Designing
                 <i class="fa fa-angle-right float-end"></i>
-                <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -36px; height: 285px;">
+                <ul class="py-0 rounded-0 drop-end dropdown-menu"
+                    style="margin-top: -36px; height: 285px;">
                   <li class="">
                     <a class="dropdown dropdown-item">
                       Coral Draw
@@ -390,7 +139,8 @@
               <div class="dropdown">
                 Web Development
                 <i class="fa fa-angle-right float-end ps-2"></i>
-                <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -107px; height: 285px;">
+                <ul class="py-0 rounded-0 drop-end dropdown-menu"
+                    style="margin-top: -107px; height: 285px;">
                   <li class="">
                     <a class=" dropdown dropdown-item">
                       PHP (Basic to advance)
@@ -428,7 +178,8 @@
               <div class="dropdown">
                 Desktop Apps
                 <i class="fa fa-angle-right float-end"></i>
-                <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -143px; height: 285px;">
+                <ul class="py-0 rounded-0 drop-end dropdown-menu"
+                    style="margin-top: -143px; height: 285px;">
                   <li class="">
                     <a class="dropdown dropdown-item">
                       C# Desktop App
@@ -441,7 +192,8 @@
               <div class="dropdown">
                 Mobile Apps
                 <i class="fa fa-angle-right float-end"></i>
-                <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -179px; height: 285px;">
+                <ul class="py-0 rounded-0 dropdown-menu drop-end"
+                    style="margin-top: -179px; height: 285px;">
                   <li class="">
                     <a class="dropdown dropdown-item">
                       Android App
@@ -459,7 +211,8 @@
               <div class="dropdown">
                 Mobile Apps
                 <i class="fa fa-angle-right float-end"></i>
-                <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -215px; height: 285px;">
+                <ul class="py-0 rounded-0 dropdown-menu drop-end"
+                    style="margin-top: -215px; height: 285px;">
                   <li class="">
                     <a class="dropdown dropdown-item">
                       Android App
@@ -477,7 +230,8 @@
               <div class="dropdown">
                 Freelancing
                 <i class="fa fa-angle-right float-end"></i>
-                <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -250px; height: 285px;">
+                <ul class="py-0 rounded-0 dropdown-menu drop-end"
+                    style="margin-top: -250px; height: 285px;">
                   <li class="border-0">
                     <a class="dropdown dropdown-item">
                       Fiver Training Course
@@ -486,1263 +240,638 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item ps-2">
-              <a class="nav-link scrollto fs-6" href="#">Programs</a>
-
-            </li>
-            <li class="nav-item  ps-2">
-              <a class="nav-link scrollto fs-6" href="#">Price</a>
-            </li>
-            <li class="nav-item  ps-2">
-              <a class="nav-link scrollto fs-6" href="#">Contact</a>
-            </li>
           </ul>
-          <div class="icons ms-auto">
-            <a href="#"><i class="fa-brands text-secondary mt-2 ps-2 fs-6 fa fa-facebook"></i></a><br>
-            <a href="#"><i class="fa-brands text-secondary mt-2 ps-2 fs-6 fa  fa-google"></i></a><br>
-            <a href="#"><i class="fa-brands text-secondary mt-2  ps-2 fs-6 fa fa-linkedin"></i></a>
-          </div>
-        </div>
+        </li>
+        <li class="nav-item ps-2">
+          <a class="nav-link scrollto fs-6" href="#">Programs</a>
+
+        </li>
+        <li class="nav-item  ps-2">
+          <a class="nav-link scrollto fs-6" href="#">Price</a>
+        </li>
+        <li class="nav-item  ps-2">
+          <a class="nav-link scrollto fs-6" href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="icons ms-auto">
+        <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa  fa-google"></i></a>
+        <a href="#"><i class="fa-brands text-light  ps-2 fs-6 fa fa-linkedin"></i></a>
       </div>
-      <!-- -----nav model end------- -->
-      <!-- ---Header end--- -->
-      <div class="mt-5 pt-5 ">
-        <div class="content text-light d-flex justify-content-center  align-items-center text-center flex-column">
-          <h1 class="fs-1 fw-bold"> Hexalogicx Software House <br> And Training Institute</h1>
-          <p class="fs-6">
+    </div>
+  </div>
+</nav>
+<div class="baner">
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12">
+      <div class="hero-contant">
+        <div class="hero-contant-text pt-5 mt-5">
+          <h1>
+                    <span href="" class="typewrite" data-period="2000" data-type='[ "Hexalogicx Training Institute", "Boost Your Skills", "First Learn, Then Earn" ]'>
+                        <span class="wrap"></span>
+                    </span>
+          </h1>
+          <p class="fs-6 mt-4">
             In Technical Courses We Are Offering Training Of Some Programming <br>
             Language & In Non-Technical There Are Some Other Courses
           </p>
-          <a class="btn btn-success mt-3 shadow-success rounded-5 px-5 text-dark fw-bold" href="">
+          <a class="btn btn-gradient mt-3 rounded-5 px-5 text-white fw-bold" href="">
             <span>ORDER</span>
           </a>
-          <div class="batches d-flex mt-5 justify-content-center align-items-center">
-            <div class="hero-batch bg_dark px-4 py-2 shadow-dark move1">
-              <a href="#" class="text-decoration-none fs-5 text-light">
-                <img class="rounded-circle" src=" assets/img/web-designing.png">
-                <span>Web Designing</span>
-              </a>
-            </div>
-            <div class="hero-batch bg_dark px-4 py-2 shadow-dark move2">
-              <a href="#" class="text-decoration-none fs-5 text-light">
-                <img class="rounded-circle" src=" assets/img/app-development.png">
-                <span> App Development</span>
-              </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12">
+      <img src="assets/img/online-education-background_52683-7614-removebg-preview.png" class="img-fluid">
+      <!--            <h1>Hexalogicx</h1>-->
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <h3 class="heading fade-left">
+    <span>About us</span>
+  </h3>
+  <div class="row">
+    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12 ">
+      <p>
+        At Hexalogicx, we take pride in being a premier destination for those seeking to master the realm of
+        computer sciences and technology. Established with a vision to bridge the gap between education and
+        industry demands, we stand as a beacon of excellence in nurturing the next generation of tech-savvy
+        professionals.
+      </p>
+      <p>
+        Whether you're a passionate beginner or a seasoned tech enthusiast looking to upskill, [Your Institute
+        Name] is the place where ambitions meet possibilities. We invite you to embark on a journey of
+        knowledge, innovation, and personal growth with us.
+
+        At [Hexalogicx], we don't just teach technology; we shape futures.
+      </p>
+    </div>
+    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12 about_cards  ">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12  fade-up">
+          <div class="card p-3 w-100">
+            <h4>Expert Faculty</h4>
+            <p>Professionals and experts in the field,bringing a wealth of industry experience</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6  mb-4 col-12  fade-up">
+          <div class="card p-3 w-100">
+            <h4>Career Guidance</h4>
+            <p>Our career counseling services are tailored to each student's aspirations.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mt-4 col-12 fade-up">
+          <div class="card p-3 w-100">
+            <h4>Shaping the Future</h4>
+            <p>We don't just teach technology; we shape futures. place where ambitions meet
+              possibilities </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-6 mb-4 col-12 fade-up">
+          <div class="card p-3 w-100">
+            <h4>Art Facilities</h4>
+            <p> Boasts lab and facilities, providing an imppresive learning environment </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-5 offering">
+  <h3 class="heading fade-up">
+    <span>We are Offering</span>
+  </h3>
+  <div class="row">
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12  fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/microsoft_office.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Basic Course</h4>
+        <small class="mt-2"> MS office is going to be a basic trip through Microsoft word, PowerPoint, Excel and
+          Access where beginners would have the opportunity to explore some great shortcuts in order to run
+          those databases more efficiently.</small>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12  fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/graphic.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Graphic Designing</h4>
+        <small class="mt-2">
+          With the wonderful inventions of IT, Now people prefer to customize electronic Graphic designing
+          instead of using a casual pen colors and paper for painting. But at the same time it’s impossible to
+          Graphics.
+        </small>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12  fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/7334578.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Web Designing</h4>
+        <small class="mt-2">
+          web designers and developers to capitalize to design and develop a Static website that offers high
+          functionality while at the same time being extremely user-friendly.
+        </small>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12  fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/web-developer-logo-png-3-removebg-preview.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Web Development</h4>
+        <small class="mt-2">
+          It is designed for experienced developers and those who have completed our Backend Essentials
+          course. In particular, it covers all the latest Object-Oriented-Programming (OOP) and functional
+          programming features
+        </small>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12 fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/3571829.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Desktop App</h4>
+        <small class="mt-2">
+          it's a general-purpose, multi-paradigm programming language. it's encompasses static typing, strong
+          typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and
+          component-oriented programming disciplines.
+        </small>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12 fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/1875043.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Mobile App</h4>
+        <small class="mt-2">
+          Android software development is the process by which applications are created for devices running
+          the Android operating system. Google states that "Android apps can be written using Kotlin, Java,
+          and C++ languages"
+        </small>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12 fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/332-3320790_freelance-icon-hd-png-download-removebg-preview.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Freelancing</h4>
+        <small class="mt-2">
+          Online marketplace for freelance services. Freelancing serves to allow listing and applying for
+          small one-off jobs, or gigs, online. Jobs listed on the platform are diverse and range from "get a
+          well-designed business card" to "help with HTML, JavaScript, CSS, and jQuery".
+        </small>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 col-sm-3 mt-4 col-12 fade-up">
+      <div class="card p-3 w-100 h-100">
+        <div class="text-center">
+          <img src="assets/img/seo.png" class="w-75">
+        </div>
+        <h4 class="mt-2 text-center">Digital Marketing</h4>
+        <small class="mt-2">
+          Digital Marketing is a fundamental aspect of online success, driving organic traffic and enhancing
+          online visibility. In today’s digital landscape, where competition is fierce, having a strong SEO
+          strategy is crucial for small business owners, eCommerce store owners, website owners, bloggers, and
+          webmasters alike.
+        </small>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="learning mt-5 ">
+  <div class="learning_color">
+    <div class="learning_text text-white w-75">
+      <h1>Courses To Learn</h1>
+      <p class="mt-4">Own Your Feature Learning New Skills Online</p>
+      <div class="mt-4">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4 fade-up">
+            <div class="learning_img">
+              <img src="assets/img/mdi_user-outline.svg">
+              <h6>
+                Over 35 student
+              </h6>
             </div>
           </div>
-          <div class=" hero-batch batch3 bg_dark px-4 py-2 shadow-dark  mt-5">
-            <a href="#" class="text-decoration-none fs-5 text-light">
-              <img class="rounded-circle" src=" assets/img/web-development.png">
-              <span> Web Development</span>
+          <div class="col-12 col-md-4 col-lg-4 fade-up">
+            <div class="learning_img">
+              <img src="assets/img/uil_book-open.svg">
+              <h6>
+                30+ Courses.
+              </h6>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 fade-up">
+            <div class="learning_img">
+              <img src="assets/img/game-icons_bookshelf.svg">
+              <h6>
+                Learn Anything Online.
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="event container mb-5 mt-5">
+  <h3 class="heading fade-up">
+    <span>Upcoming Events</span>
+  </h3>
+  <div class="mt-5">
+    <div class="carousel carousel-event fade-up">
+      <div class="carousel-cell">
+        <div class="carousel-bg">
+          <img src="assets/img/event1.jpg">
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <img src="assets/img/event2.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="assets/img/event3.jpeg">
+      </div>
+      <div class="carousel-cell">
+        <img src="assets/img/event5.png">
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="footer-top mb-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col-4 col-md-8 col-lg-8 py-4">
+          <img src="assets/img/logo.svg" class="img-fluid w-25">
+        </div>
+        <div class="col-4 col-md-2 col-lg-2 py-4 text-center footer-top-border">
+          <div class="icons mt-2">
+            <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands text-light ps-2 fs-6 fa  fa-google"></i></a>
+            <a href="#"><i class="fa-brands text-light  ps-2 fs-6 fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-4 col-md-2 col-lg-2 py-4 text-end">
+          <div class="icons">
+            <a class="btn btn-gradient shadow-light text-white fw-bold" href="">
+              <span>Join Now</span>
             </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <main>
-    <!-- ----hero slider----- -->
-    <!--    <section class="hero" id="hero">-->
-    <!--      <div class="container-fluid p-0 overflow-hidden">-->
-    <!--        <div class="carousel" style="height: 643px;" data-flickity='{ "wrapAround": true }'>-->
-    <!--          <div class="carousel-cell slider1">-->
-    <!--            <div class="bg-clr">-->
-    <!--              <div class="content text-light d-flex justify-content-center  align-items-center text-center flex-column">-->
-    <!--                <h1 class="fs-1 fw-bold"> Hexalogicx Software House <br> And Training Institute</h1>-->
-    <!--                <p class="fs-6">-->
-    <!--                  In Technical Courses We Are Offering Training Of Some Programming <br>-->
-    <!--                  Language & In Non-Technical There Are Some Other Courses-->
-    <!--                </p>-->
-    <!--                <a class="btn btn-success shadow-success rounded-5 px-5 text-dark fw-bold" href="">-->
-    <!--                  <span>ORDER</span>-->
-    <!--                </a>-->
-    <!--                <div class="batches d-flex mt-5 justify-content-center align-items-center">-->
-    <!--                  <div class="hero-batch bg_dark px-4 py-2 shadow-dark move1">-->
-    <!--                    <a href="#" class="text-decoration-none fs-5 text-light">-->
-    <!--                      <img class="rounded-circle" src=" assets/img/web-designing.png">-->
-    <!--                      <span>Web Designing</span>-->
-    <!--                    </a>-->
-    <!--                  </div>-->
-    <!--                  <div class="hero-batch bg_dark px-4 py-2 shadow-dark move2">-->
-    <!--                    <a href="#" class="text-decoration-none fs-5 text-light">-->
-    <!--                      <img class="rounded-circle" src=" assets/img/app-development.png">-->
-    <!--                      <span> App Development</span>-->
-    <!--                    </a>-->
-    <!--                  </div>-->
-    <!--                </div>-->
-    <!--                <div class=" hero-batch batch3 bg_dark px-4 py-2 shadow-dark  mt-5">-->
-    <!--                  <a href="#" class="text-decoration-none fs-5 text-light">-->
-    <!--                    <img class="rounded-circle" src=" assets/img/web-development.png">-->
-    <!--                    <span> Web Development</span>-->
-    <!--                  </a>-->
-    <!--                </div>-->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--          <div class="carousel-cell slider2">-->
-    <!--            <div class="bg-clr">-->
-    <!--              <div class="content text-light d-flex justify-content-center  align-items-center text-center flex-column">-->
-    <!--                <h1 class="fs-1 fw-bold"> Hexalogicx Software House <br> And Training Institute</h1>-->
-    <!--                <p class="fs-6">-->
-    <!--                  In Technical Courses We Are Offering Training Of Some Programming <br>-->
-    <!--                  Language & In Non-Technical There Are Some Other Courses-->
-    <!--                </p>-->
-    <!--                <a class="btn btn-success shadow-success rounded-5 px-5 text-dark fw-bold" href="">-->
-    <!--                  <span>ORDER</span>-->
-    <!--                </a>-->
-    <!--                <div class="batches d-flex mt-5 justify-content-center align-items-center">-->
-    <!--                  <div class="hero-batch bg_dark px-4 py-2 shadow-dark move1">-->
-    <!--                    <a href="#" class="text-decoration-none fs-5 text-light">-->
-    <!--                      <img class="rounded-circle" src=" assets/img/web-designing.png">-->
-    <!--                      <span>Web Designing</span>-->
-    <!--                    </a>-->
-    <!--                  </div>-->
-    <!--                  <div class="hero-batch bg_dark px-4 py-2 shadow-dark move2">-->
-    <!--                    <a href="#" class="text-decoration-none fs-5 text-light">-->
-    <!--                      <img class="rounded-circle" src=" assets/img/app-development.png">-->
-    <!--                      <span> App Development</span>-->
-    <!--                    </a>-->
-    <!--                  </div>-->
-    <!--                </div>-->
-    <!--                <div class=" hero-batch batch3 bg_dark px-4 py-2 shadow-dark  mt-5">-->
-    <!--                  <a href="#" class="text-decoration-none fs-5 text-light">-->
-    <!--                    <img class="rounded-circle" src=" assets/img/web-development.png">-->
-    <!--                    <span> Web Development</span>-->
-    <!--                  </a>-->
-    <!--                </div>-->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </section>-->
-    <!-- ----courses--- -->
-    <section class="courses d-none">
-      <div class="container mt-5">
-        <header class="text-dark">
-          <span class="fw-bolder fs-1" style="font-size: 50px;">
-            Web Designing Courses
-          </span>
-          <p class="fs-6">
-            web designing is the art and scince of look, feel and how <br>
-            a website and web page function in a untshell.
+  <div class="footer-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-3 col-12 text-white">
+          <h5 class="footer_title  mb-5">
+                        <span>
+                            Address
+                        </span>
+          </h5>
+          <p>Hexalogicx software house & institute
+            daad market near school #3
+            kheror road Lodhran</p>
+          <p>
+            0343-3253302
           </p>
-        </header>
-        <div class="row card-container">
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img1.png" alt="education" class="shadow box-shadow card-img rounded-circle">
-              </div>
-              <div class="card-body text-dark">
-                <h4 class="text-center mt-3">HTML5 & CSS</h4>
-                <p class="text-center text-secondary fs-6">Web Designing</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">3&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      5,100
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
+          <form>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text" id="basic-addon2"><i class="fa fa-arrow-right"></i></span>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img2.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                  style="box-shadow: 0 2px 30px 0px #3949ab !important;">
-              </div>
-              <div class="card-body text-dark">
-                <h4 class="text-center fs-3 mt-3">Bootstrap</h4>
-                <p class="text-center text-secondary fs-6">Web Designing</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">1&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      7,200
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img3.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                  style="box-shadow: 0 2px 30px 0px #469ebc !important">
-              </div>
-              <div class="card-body text-dark">
-                <h4 class="text-center fs-3 mt-3">Tailwind CSS</h4>
-                <p class="text-center text-secondary fs-6">Web Designing</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">3&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      5,100
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img4.png" alt="education" class="shadow box-shadow w-50 card-img rounded-circle"
-                  style="box-shadow: 0 2px 30px 0px #f7df1e !important ">
-              </div>
-              <div class="card-body text-dark">
-                <h4 class="text-center fs-3 fw-semibold mt-3">Java script</h4>
-                <p class="text-center text-secondary fs-6">Web Designing</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">3&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      5,100
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </form>
+        </div>
+        <div class=" col-lg-2 col-md-3 col-12">
+          <h5 class="footer_title text-white mb-5">
+                        <span>
+                            Graphics  Designing
+                        </span>
+          </h5>
+          <p><a href="#" class="text-decoration-none">Coral draw</a></p>
+          <p><a href="#" class="text-decoration-none">Photo shop</a></p>
+          <p><a href="#" class="text-decoration-none">Illustrator</a></p>
+          <p><a href="#" class="text-decoration-none">Canva</a></p>
+          <p><a href="#" class="text-decoration-none">Figma</a></p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12">
+          <h5 class="footer_title text-white mb-5">
+    <span>
+     Web Designing
+    </span>
+          </h5>
+          <p><a href="#" class="text-decoration-none">HTML5 & CSS3 </a></p>
+          <p><a href="#" class="text-decoration-none">Bootstrap</a></p>
+          <p><a href="#" class="text-decoration-none">Tailwind CSS</a></p>
+          <p><a href="#" class="text-decoration-none">JavaScript</a></p>
+          <p><a href="#" class="text-decoration-none">JQuery</a></p>
+          <p><a href="#" class="text-decoration-none">React JS</a></p>
+          <p><a href="#" class="text-decoration-none">Angular JS</a></p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12 ">
+          <h5 class="footer_title text-white mb-5">
+    <span>
+       Web development
+    </span>
+          </h5>
+          <p><a href="#" class="text-decoration-none">PHP</a></p>
+          <p><a href="#" class="text-decoration-none">Codelgniter</a></p>
+          <p><a href="#" class="text-decoration-none">Laravel </a></p>
+          <p><a href="#" class="text-decoration-none">Django</a></p>
+          <p><a href="#" class="text-decoration-none">Python</a></p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12">
+          <h5 class="footer_title text-white mb-5">
+    <span>
+       Get in Touch
+    </span>
+          </h5>
+          <p><a href="#" class="text-decoration-none">Dashboard</a></p>
+          <p><a href="#" class="text-decoration-none">Portfolio </a></p>
+          <p><a href="#" class="text-decoration-none">Event</a></p>
+          <p><a href="#" class="text-decoration-none">Blog</a></p>
         </div>
       </div>
-    </section>
-    <section class="courses d-none">
-      <div class="container mt-5">
-        <header class="text-dark">
-          <span class="fw-bolder fs-1" style="font-size: 50px;">
-            Web Development Courses
-          </span>
-          <p class="fs-6">
-            You will learn about the responsibilities of a web developer <br>
-            and understanding of the core and framework technologies
-          </p>
-        </header>
-        <div class="row card-container">
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img6.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                  style="box-shadow: 0 2px 30px 0px #0c51dc !important ">
-              </div>
-              <div class="card-body text-dark">
-                <h4 class="text-center mt-3 fw-semibold">PHP </h4>
-                <p class="text-center text-secondary fs-6">Web Development</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">3&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      5,100
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img7.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                  style="box-shadow: 0 2px 30px 0px #e4392f !important ">
-              </div>
-              <div class="card-body text-dark">
-                <h4 class="text-center fs-3 mt-3">Codelgniter</h4>
-                <p class="text-center text-secondary fs-6">Web Designing</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">1&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      7,200
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img5.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                  style="box-shadow: 0 2px 30px 0px #253243 !important ">
-              </div>
-              <div class="card-body text-dark">
-                <h4 class="text-center fs-3 mt-3">Tailwind CSS</h4>
-                <p class="text-center text-secondary fs-6">Web Designing</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">3&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      5,100
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-              <span class="feature-batch position-absolute">15% OFF</span>
-              <div class="card-header bg-transparent border-0">
-                <img src="assets/img/img8.png" alt="education" class="shadow box-shadow w-50 card-img rounded-circle"
-                  style="box-shadow: 0 2px 30px 0px #082e1f !important">
-              </div>
-              <div class=" card-body text-dark">
-                <h4 class="text-center fs-3 fw-semibold mt-3">Django</h4>
-                <p class="text-center text-secondary fs-6">Web Designing</p>
-                <div class="card-review">
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="mb-0">3&nbsp;Review</p>
-                    </div>
-                    <div class="col-6">
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star text-warning"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                      <i class="fa fa-star" style="color: #ccc;"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer text-dark py-0 bg-transparent">
-                <div class="row">
-                  <div class="col-6 fs-6">
-                    <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                    <span class="text-dark">3&nbsp;Month</span>
-                  </div>
-                  <div class="col-6 fs-6 border-start border-1">
-                    <!-- <div class="-1"> -->
-                    <span class="d-block mt-3 mb-2 fw-bold">
-                      Course Fee
-                    </span>
-                    <span class="text-danger fw-bold">
-                      5,100
-                    </span>
-                    <sub class="text-dark">Month</sub>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    </div>
+  </div>
+  <div class="container pt-4 pb-2">
+    <p>
+      Copyright 2023 Hexalogicx. All rights reserved
+    </p>
+  </div>
+</footer>
+
+
+<!-- -----nav model start------ -->
+<div class="offcanvas offcanvas-start text-dark w-50" tabindex="-1" id="offcanvasExample"
+     aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <div class="logo offcanvas-title" id="offcanvasExampleLabel">
+      <!--            <a class="navbar-brand" href="#">-->
+      <!--                <img class="logo w-100" src="assets/img/logo.svg" alt="">-->
+      <!--            </a>-->
+    </div>
+    <button type="button" class=" fa fa-close border-0 text-light bg-transparent fs-4" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="py-0 rounded-0 navbar-nav mr-auto">
+      <li class="nav-item ps-2">
+        <a class="nav-link scrollto active fs-6" href="#">Home</a>
+      </li>
+      <li class="dropdown-item">
+        <div class="dropdown">
+          Basic Course
+          <i class="fa fa-angle-right float-end"></i>
+          <ul class="py-0 drop-end rounded-0 dropdown-menu" style="height: 287px;">
+            <li class="">
+              <a class="dropdown dropdown-item">
+                Typing
+              </a>
+            </li>
+            <li class="">
+              <a class="dropdown dropdown-item ">
+                Ms Office
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <!-- ----hero slider----- -->
-    <section class="courses">
-      <div class="text-dark container mt-4">
-        <span class="fw-bolder fs-1" style="font-size: 50px;">
-          Web Designing Courses
-        </span>
-        <p class="fs-6">
-          web designing is the art and scince of look, feel and how <br>
-          a website and web page function in a untshell.
-        </p>
-      </div>
-      <div class="container">
-        <div class="row p-4">
-          <div class="carousel" data-flickity='{ "wrapAround": true }'>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img1.png" alt="education" class="shadow box-shadow card-img rounded-circle">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">HTML5 & CSS</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img2.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #3949ab !important;">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Bootstrap</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">1&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        7,200
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img3.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #469ebc !important">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Tailwind CSS</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img4.png" alt="education" class="shadow box-shadow w-50 card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #f7df1e !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 fw-semibold mt-3">Java script</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img1.png" alt="education" class="shadow box-shadow card-img rounded-circle">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">HTML5 & CSS</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img2.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #3949ab !important;">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Bootstrap</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">1&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        7,200
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img3.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #469ebc !important">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Tailwind CSS</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img4.png" alt="education" class="shadow box-shadow w-50 card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #f7df1e !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 fw-semibold mt-3">Java script</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      </li>
+      <li class="dropdown-item">
+        <div class="dropdown">
+          Grafic Designing
+          <i class="fa fa-angle-right float-end"></i>
+          <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -36px; height: 285px;">
+            <li class="">
+              <a class="dropdown dropdown-item">
+                Coral Draw
+              </a>
+            </li>
+            <li class="">
+              <a class="dropdown dropdown-item ">
+                PhotoShop
+              </a>
+            </li>
+            <li class=" b-btm">
+              <a class="dropdown-item dropdown">
+                Illustrator
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <section class="courses">
-      <div class="container text-dark mt-4">
-        <span class="fw-bolder fs-1" style="font-size: 50px;">
-          Web Development Courses
-        </span>
-        <p class="fs-6">
-          You will learn about the responsibilities of a web developer <br>
-          and understanding of the core and framework technologies
-        </p>
-      </div>
-      <div class="container">
-        <div class="row p-4">
-          <div class="carousel" data-flickity='{ "wrapAround": true }'>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img6.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #0c51dc !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3 fw-semibold">PHP </h4>
-                  <p class="text-center text-secondary fs-6">Web Development</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img7.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #e4392f !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Codelgniter</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">1&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        7,200
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img5.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #253243 !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Tailwind CSS</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img8.png" alt="education" class="shadow box-shadow w-50 card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #082e1f !important">
-                </div>
-                <div class=" card-body text-dark">
-                  <h4 class="text-center fs-3 fw-semibold mt-3">Django</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img6.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #0c51dc !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3 fw-semibold">PHP </h4>
-                  <p class="text-center text-secondary fs-6">Web Development</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img7.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #e4392f !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Codelgniter</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">1&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        7,200
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ms-3">
-              <div class="card p-2 mt-5 text-center shadow position-relative overflow-hidden">
-                <span class="feature-batch position-absolute">15% OFF</span>
-                <div class="card-header bg-transparent border-0">
-                  <img src="assets/img/img5.png" alt="education" class="shadow box-shadow card-img rounded-circle"
-                    style="box-shadow: 0 2px 30px 0px #253243 !important ">
-                </div>
-                <div class="card-body text-dark">
-                  <h4 class="text-center fs-3 mt-3">Tailwind CSS</h4>
-                  <p class="text-center text-secondary fs-6">Web Designing</p>
-                  <div class="card-review">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="mb-0">3&nbsp;Review</p>
-                      </div>
-                      <div class="col-6">
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star text-warning"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                        <i class="fa fa-star" style="color: #ccc;"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer text-dark py-0 bg-transparent">
-                  <div class="row">
-                    <div class="col-6 fs-6">
-                      <span class="fw-bold text-dark mt-3 mb-2 d-block">Duration </span>
-                      <span class="text-dark">3&nbsp;Month</span>
-                    </div>
-                    <div class="col-6 fs-6 border-start border-1">
-                      <!-- <div class="-1"> -->
-                      <span class="d-block mt-3 mb-2 fw-bold">
-                        Course Fee
-                      </span>
-                      <span class="text-danger fw-bold">
-                        5,100
-                      </span>
-                      <sub class="text-dark">Month</sub>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      </li>
+      <li class="dropdown-item">
+        <div class="dropdown">
+          Web Designing
+          <i class="fa fa-angle-right float-end"></i>
+          <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -72px;">
+            <li class="">
+              <a class="dropdown-item dropdown">
+                HTML & CSS3
+              </a>
+            </li>
+            <li class="">
+              <a class="dropdown-item dropdown">
+                Bootsrap
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item dropdown">
+                TailWind CSS
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item dropdown">
+                Javascript
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                JQuery
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                React Js
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                Vue Js
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                Angular Js
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
+      </li>
+      <li class="dropdown-item">
+        <div class="dropdown">
+          Web Development
+          <i class="fa fa-angle-right float-end ps-2"></i>
+          <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -107px; height: 285px;">
+            <li class="">
+              <a class=" dropdown dropdown-item">
+                PHP (Basic to advance)
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                CodeIgniter
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                Laravel PHP Framework (Basic to Advance)
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                Django
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                Python(Basic to Advance)
+              </a>
+            </li>
+            <li class="">
+              <a class=" dropdown dropdown-item ">
+                WordPress
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown-item">
+        <div class="dropdown">
+          Desktop Apps
+          <i class="fa fa-angle-right float-end"></i>
+          <ul class="py-0 rounded-0 drop-end dropdown-menu" style="margin-top: -143px; height: 285px;">
+            <li class="">
+              <a class="dropdown dropdown-item">
+                C# Desktop App
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown-item">
+        <div class="dropdown">
+          Mobile Apps
+          <i class="fa fa-angle-right float-end"></i>
+          <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -179px; height: 285px;">
+            <li class="">
+              <a class="dropdown dropdown-item">
+                Android App
+              </a>
+            </li>
+            <li class="">
+              <a class="dropdown dropdown-item">
+                Hybrid Application Development
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown-item">
+        <div class="dropdown">
+          Mobile Apps
+          <i class="fa fa-angle-right float-end"></i>
+          <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -215px; height: 285px;">
+            <li class="">
+              <a class="dropdown dropdown-item">
+                Android App
+              </a>
+            </li>
+            <li class="">
+              <a class="dropdown dropdown-item ">
+                Hybrid Application Development
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="dropdown-item border-0">
+        <div class="dropdown">
+          Freelancing
+          <i class="fa fa-angle-right float-end"></i>
+          <ul class="py-0 rounded-0 dropdown-menu drop-end" style="margin-top: -250px; height: 285px;">
+            <li class="border-0">
+              <a class="dropdown dropdown-item">
+                Fiver Training Course
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item ps-2">
+        <a class="nav-link scrollto fs-6" href="#">Programs</a>
 
-  </main>
+      </li>
+      <li class="nav-item  ps-2">
+        <a class="nav-link scrollto fs-6" href="#">Price</a>
+      </li>
+      <li class="nav-item  ps-2">
+        <a class="nav-link scrollto fs-6" href="#">Contact</a>
+      </li>
+    </ul>
+    <div class="icons ms-auto">
+      <a href="#"><i class="fa-brands text-secondary mt-2 ps-2 fs-6 fa fa-facebook"></i></a><br>
+      <a href="#"><i class="fa-brands text-secondary mt-2 ps-2 fs-6 fa  fa-google"></i></a><br>
+      <a href="#"><i class="fa-brands text-secondary mt-2  ps-2 fs-6 fa fa-linkedin"></i></a>
+    </div>
+  </div>
+</div>
+<!-- -----nav model end------- -->
+<!-- ---flikity--- -->
+<!--<script src="assets/js/flickity.js"></script>-->
+
+<!-- bootsrap -->
+<script src="assets/js/bootstrap.js"></script>
+<!-- -scroll- -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/fade.js"></script>
+<!-- purecounter -->
+<script src="assets/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/js/purecounter/purecounter_vanilla.js"></script>
+<script>
+  var elem = document.querySelector('.carousel-hero');
+  new Flickity(elem, {
+    autoplay: true,
+    wrapAround: true,
+  });
+  var elem1 = document.querySelector('.carousel-event');
+  new Flickity(elem1, {
+    freeScroll: true,
+    wrapAround: true
+  });
+</script>
+
+<script>
+  new PureCounter();
+</script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- ---flikity--- -->
-  <script src="assets/js/flickity.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <!-- bootsrap -->
-  <script src="assets/js/bootstrap.js"></script>
-  <!-- -scroll- -->
-  <script src="assets/js/script.js"></script>
-  <!-- purecounter -->
-  <script src="assets/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/js/purecounter/purecounter_vanilla.js"></script>
-  <script>
-    new PureCounter();
-  </script>
 </body>
 
 </html>

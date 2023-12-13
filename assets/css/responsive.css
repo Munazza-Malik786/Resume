@@ -9,6 +9,9 @@
     .learning_text h1{
         font-size: 35px;
     }
+    .hero-learning h1{
+        font-size: 18px;
+    }
     .learning_text p {
         font-size: 20px;
     }
@@ -19,10 +22,13 @@
         margin-top: 1.5rem!important;
         margin-bottom: 0rem !important;
     }
-    .hero-contant .pt-5{
+    .hero-content .pt-5{
         padding-top: 0rem!important;
     }
-    .hero-contant .mt-5{
+    .hero-content .mt-5{
         margin-top: 0rem!important;
+    }
+    .hero-content{
+        padding-top: 3rem;
     }
 }

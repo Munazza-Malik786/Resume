@@ -28,14 +28,16 @@ body {
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
+    color: white;
 }
 
 .btn-gradient:hover {
     background: transparent !important;
-    border: 1px solid rgb(128 76 201 / 73%);
+    /*border: 1px solid rgb(128 76 201 / 73%);*/
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
+    color: var(--purple);
 }
 
 .heading span {
@@ -223,6 +225,19 @@ body {
     background-position: center;
     width: 100%;
 }
+.hero-learning {
+    background-image: url(../img/positive-young-guy-working-project-late-night_116547-50113.avif);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+.arrow.arrow--top{
+    height: 250px;
+    overflow: hidden;
+}
 
 .learning_color {
     background: var(--gradient2) !important;
@@ -241,6 +256,10 @@ body {
 
 .learning_text h1 {
     font-size: 55px;
+    text-shadow: 0px 5px 10px #767676;
+}
+.hero-learning h1 {
+    font-size: 40px;
     text-shadow: 0px 5px 10px #767676;
 }
 
@@ -346,7 +365,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--purple);
+    color: white;
 }
 
 footer p {
@@ -394,10 +413,20 @@ footer p {
         background-position-x: -1600px;
     }
 }
-.hero-contant{
-    height: auto;
-}
+/*.hero-content{*/
+/*    height: auto;*/
+/*    background: var(--gradient1);*/
+/*    padding-left:10px ;*/
+/*    padding-right:10px ;*/
+/*    padding-bottom:3rem;*/
+/*    border-radius: 10px;*/
+/*    color: white;*/
+/*    !*margin-right: -3rem;*!*/
+/*}*/
 .typewrite{
     border-right: 5px solid var(--purple);
 }
 
+.hero-content{
+
+}
