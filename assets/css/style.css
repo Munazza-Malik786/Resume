@@ -34,6 +34,7 @@ body {
 .btn-gradient:hover {
     background: transparent !important;
     /*border: 1px solid rgb(128 76 201 / 73%);*/
+    box-shadow: 0px 4px 9px #ccc;
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
@@ -266,7 +267,7 @@ body {
 }
 
 .hero-learning h1 {
-    font-size: 40px;
+    font-size: 35px;
     text-shadow: 0px 5px 10px #767676;
 }
 
@@ -434,4 +435,15 @@ footer p {
     border-color:var(--purple) ;
     outline: 0;
     box-shadow: 0 0 0 0rem var(--purple);
+}
+.hero_section{
+    height: 100vh;
+    position: relative;
+}
+.hero_section .row{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
