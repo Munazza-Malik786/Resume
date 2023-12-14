@@ -393,7 +393,9 @@ footer p {
     font-weight: bold;
     font-size: 120px;
     color: #FFF;
-    position: relative;
+    /*position: relative;*/
+    position: absolute;
+    width: 100%;
 }
 
 .baner:before {
@@ -446,4 +448,12 @@ footer p {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+.fa-star{
+    color: #f2b600 !important;
+}
+
+.card.course:hover img{
+    background: white;
 }
