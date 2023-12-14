@@ -442,7 +442,7 @@ footer p {
     height: 100vh;
     position: relative;
 }
-.hero_section .row{
+.hero_section .hero_section_row{
     position: absolute;
     left: 50%;
     top: 50%;
