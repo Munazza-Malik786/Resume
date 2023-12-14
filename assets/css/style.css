@@ -49,6 +49,10 @@ body {
     background: var(--gradient1) !important;
 }
 
+.purple {
+    color: var(--purple);
+}
+
 .nav-link {
     color: rgb(255 255 255 / 96%);
 }
@@ -225,6 +229,7 @@ body {
     background-position: center;
     width: 100%;
 }
+
 .hero-learning {
     background-image: url(../img/positive-young-guy-working-project-late-night_116547-50113.avif);
     height: 250px;
@@ -234,7 +239,8 @@ body {
     background-position: center;
     width: 100%;
 }
-.arrow.arrow--top{
+
+.arrow.arrow--top {
     height: 250px;
     overflow: hidden;
 }
@@ -258,6 +264,7 @@ body {
     font-size: 55px;
     text-shadow: 0px 5px 10px #767676;
 }
+
 .hero-learning h1 {
     font-size: 40px;
     text-shadow: 0px 5px 10px #767676;
@@ -328,11 +335,11 @@ body {
 
 footer {
     background-color: #121921;
-    font-family: rubik;
 }
 
 .footer_title {
     font-weight: 500;
+    font-size: 18px;
 }
 
 .footer_title span {
@@ -413,20 +420,18 @@ footer p {
         background-position-x: -1600px;
     }
 }
-/*.hero-content{*/
-/*    height: auto;*/
-/*    background: var(--gradient1);*/
-/*    padding-left:10px ;*/
-/*    padding-right:10px ;*/
-/*    padding-bottom:3rem;*/
-/*    border-radius: 10px;*/
-/*    color: white;*/
-/*    !*margin-right: -3rem;*!*/
-/*}*/
-.typewrite{
+
+.typewrite {
     border-right: 5px solid var(--purple);
 }
-
-.hero-content{
-
+.contact_section{
+    background: var(--gradient-box);
+    width: 100%;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color:var(--purple) ;
+    outline: 0;
+    box-shadow: 0 0 0 0rem var(--purple);
 }
