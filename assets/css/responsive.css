@@ -1,54 +1,92 @@
+@media screen and (max-width: 400px) {
+    .hero_section_row {
+        margin-top: 50% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero_section_row {
+        margin-top: 30% !important;
+    }
+}
+
 @media screen and (max-width: 900px) {
+    .baner {
+        display: none;
+    }
 
     .logo {
         width: 37%;
     }
-    .hero_section{
-        height: 60vh;
+
+    .hero_img {
+        max-width: 100%;
+        min-width: 100%;
     }
-    .learning{
+
+    .hero_section_row {
+        text-align: center !important;
+        margin-top: 20%;
+    }
+
+    .contact {
+        margin-top: 70%;
+    }
+
+    .hero_section {
         height: 100vh;
     }
-    .learning_text h1{
+
+    .map {
+        margin-top: 40%;
+    }
+
+    .learning {
+        height: 100vh;
+    }
+
+    .learning_text h1 {
         font-size: 35px;
     }
-    .hero-learning h1{
+
+    .hero-learning h1 {
         font-size: 18px;
     }
+
     .learning_text p {
         font-size: 20px;
     }
-    .footer-top .w-25{
+
+    .footer-top .w-25 {
         width: 100% !important;
     }
-    .about_cards .mb-4{
-        margin-top: 1.5rem!important;
+
+    .about_cards .mb-4 {
+        margin-top: 1.5rem !important;
         margin-bottom: 0rem !important;
     }
-    .hero-content .pt-5{
-        padding-top: 0rem!important;
+
+    .hero-content .pt-5 {
+        padding-top: 0rem !important;
     }
-    .hero-content .mt-5{
-        margin-top: 0rem!important;
-    }
-    .hero-content{
-        padding-top: 3rem;
+
+    .hero-content .mt-5 {
+        margin-top: 0rem !important;
     }
 }
+
 @media screen and (min-width: 1900px) {
-    .hero_section .hero_section_row{
+    .hero_section .hero_section_row {
         top: 40%;
     }
-    .hero_section{
+
+    .hero_section {
         height: 80vh;
     }
 }
-/*@media screen and (max-width: 1500px) {*/
-/*    .hero_section{*/
-/*        padding-top: 60%;*/
-/*    }*/
-/*    .hero-learning{*/
-/*        margin-top: -6%;*/
-/*    }*/
 
-/*}*/
+@media (max-width: 576px) {
+    .col-sm-6 {
+        width: 100% !important;
+    }
+}

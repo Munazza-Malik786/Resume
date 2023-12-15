@@ -28,14 +28,17 @@ body {
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
+    color: white;
 }
 
 .btn-gradient:hover {
     background: transparent !important;
-    border: 1px solid rgb(128 76 201 / 73%);
+    /*border: 1px solid rgb(128 76 201 / 73%);*/
+    box-shadow: 0px 4px 9px #ccc;
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
+    color: var(--purple);
 }
 
 .heading span {
@@ -45,6 +48,10 @@ body {
 
 .offcanvas-header {
     background: var(--gradient1) !important;
+}
+
+.purple {
+    color: var(--purple);
 }
 
 .nav-link {
@@ -101,7 +108,10 @@ body {
     -o-transition: .8s all ease;
     transition: .8s all ease;
 }
+.navbar{
+    background: var(--gradient1) !important;
 
+}
 .hero .carousel-cell {
     width: 100%;
     margin-right: 0px;
@@ -224,6 +234,21 @@ body {
     width: 100%;
 }
 
+.hero-learning {
+    background-image: url(../img/positive-young-guy-working-project-late-night_116547-50113.avif);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+
+.arrow.arrow--top {
+    height: 250px;
+    overflow: hidden;
+}
+
 .learning_color {
     background: var(--gradient2) !important;
     height: 100%;
@@ -241,6 +266,11 @@ body {
 
 .learning_text h1 {
     font-size: 55px;
+    text-shadow: 0px 5px 10px #767676;
+}
+
+.hero-learning h1 {
+    font-size: 35px;
     text-shadow: 0px 5px 10px #767676;
 }
 
@@ -309,11 +339,11 @@ body {
 
 footer {
     background-color: #121921;
-    font-family: rubik;
 }
 
 .footer_title {
     font-weight: 500;
+    font-size: 18px;
 }
 
 .footer_title span {
@@ -346,7 +376,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--purple);
+    color: white;
 }
 
 footer p {
@@ -367,6 +397,8 @@ footer p {
     font-size: 120px;
     color: #FFF;
     position: relative;
+    /*position: absolute;*/
+    width: 100%;
 }
 
 .baner:before {
@@ -394,10 +426,57 @@ footer p {
         background-position-x: -1600px;
     }
 }
-.hero-contant{
-    height: auto;
-}
-.typewrite{
+
+.typewrite {
     border-right: 5px solid var(--purple);
 }
+.contact_section{
+    background: var(--gradient-box);
+    width: 100%;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color:var(--purple) ;
+    outline: 0;
+    box-shadow: 0 0 0 0rem var(--purple);
+}
+.hero_section{
+    height: 70vh;
+    position: relative;
+}
+.hero_section .hero_section_row{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
 
+.fa-star{
+    color: #f2b600 !important;
+}
+
+.card.course:hover img{
+    background: white;
+}
+.hero_img img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.hero_img{
+    position: relative;
+    max-width: 75%;
+    min-width: 75%;
+}
+.hero_img::before{
+    content: "";
+    position: absolute;
+    border: 3px solid var(--purple);
+    top: 20px;
+    right: -20px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 4px;
+}
