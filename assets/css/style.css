@@ -439,7 +439,7 @@ footer p {
     box-shadow: 0 0 0 0rem var(--purple);
 }
 .hero_section{
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 .hero_section .hero_section_row{
