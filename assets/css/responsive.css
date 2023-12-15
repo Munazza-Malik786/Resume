@@ -32,3 +32,21 @@
         padding-top: 3rem;
     }
 }
+@media screen and (max-width: 1900px) {
+    .hero_section{
+        padding-top: 50%;
+    }
+    .hero-learning{
+        margin-top: -6%;
+    }
+
+}
+@media screen and (max-width: 1500px) {
+    .hero_section{
+        padding-top: 60%;
+    }
+    .hero-learning{
+        margin-top: -6%;
+    }
+
+}
