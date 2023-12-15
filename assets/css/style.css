@@ -393,8 +393,8 @@ footer p {
     font-weight: bold;
     font-size: 120px;
     color: #FFF;
-    /*position: relative;*/
-    position: absolute;
+    position: relative;
+    /*position: absolute;*/
     width: 100%;
 }
 
@@ -439,13 +439,13 @@ footer p {
     box-shadow: 0 0 0 0rem var(--purple);
 }
 .hero_section{
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
 .hero_section .hero_section_row{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
@@ -456,4 +456,24 @@ footer p {
 
 .card.course:hover img{
     background: white;
+}
+.hero_img img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.hero_img{
+    position: relative;
+    max-width: 75%;
+    min-width: 75%;
+}
+.hero_img::before{
+    content: "";
+    position: absolute;
+    border: 3px solid var(--purple);
+    top: 20px;
+    right: -20px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 4px;
 }

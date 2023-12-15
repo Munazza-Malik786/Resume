@@ -3,6 +3,9 @@
     .logo {
         width: 37%;
     }
+    .hero_section{
+        height: 60vh;
+    }
     .learning{
         height: 100vh;
     }
@@ -32,21 +35,20 @@
         padding-top: 3rem;
     }
 }
-@media screen and (max-width: 1900px) {
+@media screen and (min-width: 2250px) {
+    .hero_section .hero_section_row{
+        top: 40%;
+    }
     .hero_section{
-        padding-top: 50%;
+        height: 100vh;
     }
-    .hero-learning{
-        margin-top: -6%;
-    }
-
 }
-@media screen and (max-width: 1500px) {
-    .hero_section{
-        padding-top: 60%;
-    }
-    .hero-learning{
-        margin-top: -6%;
-    }
+/*@media screen and (max-width: 1500px) {*/
+/*    .hero_section{*/
+/*        padding-top: 60%;*/
+/*    }*/
+/*    .hero-learning{*/
+/*        margin-top: -6%;*/
+/*    }*/
 
-}
+/*}*/
