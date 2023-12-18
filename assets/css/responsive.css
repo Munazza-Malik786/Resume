@@ -1,18 +1,16 @@
-@media screen and (max-width: 400px) {
-    .hero_section_row {
-        margin-top: 50% !important;
+@media screen and (max-width: 400px){
+    .home .hero_section, .category .hero_section {
+        height: 70vh!important;
+        margin-top: 4rem;
+    }
+    .detail_hero .hero_section {
+        height: 85vh!important;
+
     }
 }
-
-@media screen and (max-width: 400px) {
-    .hero_section_row {
-        margin-top: 30% !important;
-    }
-}
-
-@media screen and (max-width: 900px) {
+    @media screen and (max-width: 900px) {
     .baner {
-        display: none;
+        padding: 80px 0;
     }
 
     .logo {
@@ -24,21 +22,37 @@
         min-width: 100%;
     }
 
-    .hero_section_row {
-        text-align: center !important;
-        margin-top: 20%;
+    .home .hero_section, .category .hero_section {
+        height: 50vh;
+        margin-top: 4rem;
+    }
+    .cat_img .hero_img::before{
+        right: -10px;
+        top: 20px;
+    }
+    .detail_hero .hero_section {
+        height: 75vh;
+
     }
 
-    .contact {
-        margin-top: 70%;
+    .contact_hero .hero_section {
+        height: 90vh;
+
     }
 
-    .hero_section {
-        height: 100vh;
+    .detail_hero .hero_section .hero_section_row {
+        top: 50%;
     }
 
-    .map {
-        margin-top: 40%;
+    .contact_hero .hero_section .hero_section_row {
+        top: 40%;
+    }
+  .contact_hero .contact_form .p-4 {
+     padding: 0px!important;
+    }
+
+    .detail_hero .mt-4 {
+        margin-top: 0rem !important;
     }
 
     .learning {
@@ -52,7 +66,6 @@
     .hero-learning h1 {
         font-size: 18px;
     }
-
     .learning_text p {
         font-size: 20px;
     }
@@ -64,14 +77,6 @@
     .about_cards .mb-4 {
         margin-top: 1.5rem !important;
         margin-bottom: 0rem !important;
-    }
-
-    .hero-content .pt-5 {
-        padding-top: 0rem !important;
-    }
-
-    .hero-content .mt-5 {
-        margin-top: 0rem !important;
     }
 }
 

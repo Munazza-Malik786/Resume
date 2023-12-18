@@ -68,4 +68,18 @@ window.onload = function () {
     document.body.appendChild(css);
 };
 
-
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Get the button and style link elements
+//     var toggleButton = document.getElementById('toggleButton');
+//     var styleLink = document.getElementById('styleLink');
+//
+//     // Add a click event listener to the button
+//     toggleButton.addEventListener('click', function () {
+//         // Toggle between style1.css and style2.css
+//         if (styleLink.getAttribute('href') === '../css/style.css') {
+//             styleLink.setAttribute('href', 'dark.css');
+//         } else {
+//             styleLink.setAttribute('href', '../css/style.css');
+//         }
+//     });
+// });

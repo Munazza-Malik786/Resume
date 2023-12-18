@@ -4,6 +4,7 @@ body {
     -o-transition: .3s all ease;
     transition: .3s all ease;
     background-color: var(--body_bg);
+    color:#c4cfde ;
 }
 
 * {
@@ -13,39 +14,69 @@ body {
 }
 
 :root {
-    --body_bg: #ecf0f3;;
+    --body_bg: #212428;;
     --gradient: linear-gradient(45deg, #6f18a580, #6f3bbc96);
-    --purple: #6e0d9d;
-    --gradient2: linear-gradient(45deg, #4c1864ed 0%, #3f189ae0 100%);
+    --purple: #c4cfde;
+    --gradient2: linear-gradient(45deg, #484648ed 0%, #141414e0 100%);
     /*--gradient1:linear-gradient(200deg, #6f18a5, #6f3bbc);*/
-    --gradient1: linear-gradient(45deg, #4c1864 0%, #3f189a 100%);
-    --gradient-box: linear-gradient(145deg, #e2e8ec, #ffffff);
+    --gradient1: linear-gradient(145deg, #1e2024, #23272b);
+    --gradient-box: linear-gradient(145deg, #1e2024, #23272b);
 }
 
 .btn-gradient {
     background: var(--gradient1);
-    box-shadow: 0px 4px 9px rgb(128 76 201 / 62%);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
     color: white;
 }
-
+.offering .text-dark{
+    color: #c4cfde!important;
+}
 .btn-gradient:hover {
     background: transparent !important;
-    /*border: 1px solid rgb(128 76 201 / 73%);*/
-    box-shadow: 0px 4px 9px #ccc;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
-    color: var(--purple);
+    animation: colorHeading 5s infinite;
 }
 
+@keyframes boderbottomAnimation {
+    0% {
+        border-bottom: 4px solid #3f189a;
+    }
+    25% {
+        border-bottom: 4px solid #6f39bb;
+    }
+    50% {
+        border-bottom: 4px solid #7c5980;
+    }
+    75% {
+        border-bottom: 4px solid #9338a5;
+    }
+}
 .heading span {
-    border-bottom: 4px solid var(--purple);
+    border-bottom: 4px solid #6f39bb;
     padding-bottom: 5px;
+    color: #6f39bb;
+    animation: colorHeading 5s infinite, boderbottomAnimation 5s infinite;
 }
-
+@keyframes colorHeading {
+    0% {
+        color: #3f189a;
+    }
+    25% {
+        color: #6f39bb;
+    }
+    50% {
+        color: #7c5980;
+    }
+    75% {
+        color: #9338a5;
+    }
+}
 .offcanvas-header {
     background: var(--gradient1) !important;
 }
@@ -102,7 +133,7 @@ body {
 
 .scroll-color-change {
     background: var(--gradient1) !important;
-    box-shadow: 0px 2px 10px rgb(13 0 31 / 84%);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     backdrop-filter: blur(15px);
     -webkit-transition: .8s all ease;
     -o-transition: .8s all ease;
@@ -111,68 +142,6 @@ body {
 .navbar{
     background: var(--gradient1) !important;
 
-}
-.hero .carousel-cell {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0;
-    border-radius: 5px;
-}
-
-/* cell number */
-.hero .carousel-cell:before {
-    display: block;
-    font-size: 80px;
-    color: white;
-}
-
-/* position dots in gallery */
-.hero .flickity-page-dots {
-    bottom: 15px;
-}
-
-/* white circles */
-.hero .flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid white;
-}
-
-/* fill-in selected dot */
-.hero .flickity-page-dots .dot.is-selected {
-    background: white;
-}
-
-.hero .hero1 {
-    background-image: url("../img/hero2.jpg");
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    width: 100%;
-}
-
-.hero .hero2 {
-    background-image: url("../img/hero.jpg");
-    height: 600px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.hero .hero3 {
-    background-image: url("../img/hero1.jpg");
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    width: 100%;
 }
 
 .hero_bg {
@@ -197,13 +166,38 @@ body {
 
 .card {
     background: var(--gradient-box);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     border: none;
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
 }
-
+.card::before{
+    content: "";
+    position: absolute;
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    opacity: 0;
+    z-index: -1;
+}
+.footer::before {
+    content: "";
+    position: absolute;
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    opacity: 0;
+    z-index: -1;
+}
 .card:hover {
     color: white;
     cursor: pointer;
@@ -316,18 +310,34 @@ body {
     color: #fff;
 }
 
-.event .flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid #4c1868;
-}
+ .flickity-page-dots .dot {
+    font-size: 0;
+    line-height: 0;
+    width: 11px;
+    height: 11px;
+    padding: 0;
+    cursor: pointer;
+    border: 0;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:3px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    border-radius: 50%;
+    transition: 0.4s;
+     opacity: 1;
 
-.event .flickity-page-dots .dot.is-selected {
-    background: var(--gradient2) !important;
 }
-
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -37px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}
+.flickity-page-dots .dot.is-selected {
+background:var(--gradient);
+}
 .footer-top, .footer-body {
     border-bottom: 1px solid rgb(255, 255, 255, 0.1);
 }
@@ -338,7 +348,7 @@ body {
 }
 
 footer {
-    background-color: #121921;
+    background: var(--gradient1) !important;
 }
 
 .footer_title {
@@ -400,12 +410,14 @@ footer p {
     /*position: absolute;*/
     width: 100%;
 }
-
+.hero-content-text{
+    color:#c4cfde!important;
+}
 .baner:before {
     content: "";
     height: 125px;
     width: 100%;
-    background: url("../img/wave.svg") repeat-x scroll 0 0;
+    background: url("../img/dark-wave.svg") repeat-x scroll 0 0;
     -webkit-background-size: 1600px 198px;
     -moz-background-size: 1600px 198px;
     -o-background-size: 1600px 198px;
@@ -428,7 +440,9 @@ footer p {
 }
 
 .typewrite {
-    border-right: 5px solid var(--purple);
+    /*border-right: 5px solid #6f39bb;*/
+    color: #6f39bb;
+    animation: colorHeading 5s infinite;
 }
 .contact_section{
     background: var(--gradient-box);
@@ -464,24 +478,22 @@ footer p {
     max-width: 100%;
     min-width: 100%;
 }
-.hero_img{
+.home.hero_img{
     position: relative;
     max-width: 100%;
     min-width: 100%;
     animation: rotateAnimation 6s infinite;
     padding:10px;
-    background: linear-gradient(145deg, #e2e8ec, #e2e8ec);
-    box-shadow:3px 4px 2px -3px #fff inset, -1px -3px 3px -2px  #fff inset;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:3px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+
 }
-.flickity-page-dots {
-    position: absolute;
-    width: 100%;
-    bottom: -37px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    line-height: 1;
+.hero_img{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    animation: rotateAnimation 6s infinite;
+
 }
 .cat_img .hero_img::before{
     content: "";
@@ -522,7 +534,7 @@ footer p {
     background: var(--gradient-box);
 }
 .detail .nav-link {
-    color: #000;
+    color: #c4cfde;
     width: 100%;
 }
 .detail li {
@@ -536,11 +548,15 @@ footer p {
 .progress-bar{
     background: var(--gradient1);
 }
-.hero_section .flickity-page-dots .dot{
-    background: var(--gradient1);
+.nav-tabs {
+    border-width: 1px;
+    border-color: #505254;
 }
-.detail_hero .hero-content-text{
-    padding:10px;
-    background: linear-gradient(145deg, #e2e8ec, #e2e8ec);
-    box-shadow:3px 4px 2px -3px #fff inset, -1px -3px 3px -2px  #fff inset;
+.nav-tabs .nav-link.active {
+    border-width: 1px;
+    border-color: #505254;
+}
+.form-control {
+    background-color: #343434;
+    border: 1px solid #343434;
 }
